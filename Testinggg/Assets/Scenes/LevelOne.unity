@@ -274,7 +274,7 @@ Transform:
   m_GameObject: {fileID: 856104158}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.4287, y: -0.8005, z: 0}
+  m_LocalPosition: {x: -8.24, y: -0.68, z: 0}
   m_LocalScale: {x: 3.0825, y: 3.1611, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -774,6 +774,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4546040310397142080, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
+      propertyPath: m_Size.x
+      value: 2.0216112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546040310397142080, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
+      propertyPath: m_Size.y
+      value: 1.43222
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546040310397142080, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546040310397142080, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5697446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546040310397142080, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546040310397142080, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546040310397142080, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362590950380186243, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1355021865, guid: 23cf6988d8c71a1459b86f455a4de3e1, type: 3}
     - target: {fileID: 6949273535154936209, guid: 2639bba93f81bc8459ebf2e2422101e9, type: 3}
       propertyPath: m_Name
       value: Player
