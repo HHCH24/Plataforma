@@ -205,9 +205,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 613197108}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: NewGame
+      - m_Target: {fileID: 613197109}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -682,6 +682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 613197107}
   - component: {fileID: 613197108}
+  - component: {fileID: 613197109}
   m_Layer: 0
   m_Name: ButtonManager
   m_TagString: Untagged
@@ -714,6 +715,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1c53e0560dae9a4683f46791126e744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &613197109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613197106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa8fa09422208547a733cc892e7d03b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &656296242
@@ -1565,9 +1578,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 613197108}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: Options
+      - m_Target: {fileID: 613197109}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
